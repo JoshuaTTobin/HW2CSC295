@@ -9,7 +9,7 @@ Include a brief write-up (300-400 words) discussing your approach, challenges fa
 
  I Chose Binary Search for this assingment and decided thatt is would be more efficent because it's faster for big lists. But the list must be sorted beforehand. Sorting takes time, but once it's sorted, searching becomes more efficent. This trade-off between sorting first and fast searching later seems like it become a priority for more complex programs.
 
- Some Challenges I Faced When I was writing the code for binary search started when I had to figure out when to stop looking like deciding if I should keep looking until I check every name or stop sooner and how to find the middle of the list correctly. These details were tricky and needed careful testing to make sure my code worked for all cases, like lists with only one name or really big lists.
+ During my project, I faced some tough problems that helped me learn more about writing code. For instance, when I divided the list in half, I needed to ensure I did it correctly. This involved checking conditions like whether a number was even or odd, or making sure that two items in the list were equal to each other.
  
  To make sure my program worked well, I tested it with different kinds of lists—small ones with only a few names and big ones with lots of names. Testing helped me see if my code could handle all situations and find names accurately every time. After Putting It All Together, I organized the binary search code neatly in a class called SingleElementFinder. This made it easier to understand and use whenever I needed to find a specific name in a sorted list of names.
 
